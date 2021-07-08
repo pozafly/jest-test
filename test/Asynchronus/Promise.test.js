@@ -20,7 +20,7 @@ function fetchUser(id) {
 }
 
 /**
- * then을 사용해 Promise를 테스트 함.
+ * then()을 사용해 Promise를 테스트 함.
  * 해결 방법은, return 문만 추가해주면 된다.
  * 테스트 함수가 Promise를 return 하면 Jest가 resolve될 때까지 기다려줌.
  */

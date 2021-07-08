@@ -44,6 +44,8 @@ test('create a user', () => {
  *
  * 📌 궁금한 점은, afterEach, beforeEach는 test 전체에 영향을 주는지?
  * 아니면 이 파일 scope 안에서만 주는지?
+ * 👉 https://velog.io/@modolee/jest-user-guide-06
+ * 이곳에 따르면, block 단위로 사용된다. 즉, 여러번 쓸 수 있음. 또한 범위 내부의 녀석들은 외부의 afterEach에 영향을 받는다.
  */
 afterEach(() => {
   data.users.splice(0);

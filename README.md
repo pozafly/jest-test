@@ -32,3 +32,7 @@ $ npm i -D jest @types/jest
 ```shell
 $ npm test -- --watch
 ```
+
+# Reference
+
+Gitbook : https://mulder21c.github.io/jest/docs/en/next/getting-started
